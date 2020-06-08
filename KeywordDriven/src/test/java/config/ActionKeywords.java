@@ -50,7 +50,7 @@ public class ActionKeywords {
 				Log.info("Opening Browser");
 				//If value of the parameter is Chrome, this will execute
 				if (data.equals("Chrome")){
-					System.setProperty("webdriver.chrome.driver","C:\\JARs\\chromedriver_win32\\chromedriver.exe");
+					System.setProperty("webdriver.chrome.driver","C:/Users/Sanskar Modi/Downloads/chromedriver_win32/chromedriver.exe");
 					driver=new ChromeDriver();
 					driver.manage().window().maximize();
 					logger.log(LogStatus.PASS, "opened Browser -"+ data);
